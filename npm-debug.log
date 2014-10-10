@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\Users\\Sleepyhead\\WebstormProjects\\v8-node',
+6 verbose install   [ 'bindings', 'node-gyp', 'mocha' ] ]
+7 info preinstall v8-node@0.0.1
+8 verbose unsafe-perm in lifecycle true
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping bindings@~1.2.1 C:\Users\Sleepyhead\WebstormProjects\v8-node
+11 verbose already installed skipping node-gyp@~1.0.2 C:\Users\Sleepyhead\WebstormProjects\v8-node
+12 verbose already installed skipping mocha@1.17.1 C:\Users\Sleepyhead\WebstormProjects\v8-node
+13 silly resolved []
+14 info build C:\Users\Sleepyhead\WebstormProjects\v8-node
+15 verbose linkStuff [ false, false, false, 'C:\\Users\\Sleepyhead\\WebstormProjects' ]
+16 info linkStuff v8-node@0.0.1
+17 verbose linkBins v8-node@0.0.1
+18 verbose linkMans v8-node@0.0.1
+19 verbose rebuildBundles v8-node@0.0.1
+20 verbose rebuildBundles [ '.bin', 'bindings', 'mocha', 'node-gyp' ]
+21 info install v8-node@0.0.1
+22 verbose unsafe-perm in lifecycle true
+23 info v8-node@0.0.1 Failed to exec install script
+24 error v8-node@0.0.1 install: `node-gyp rebuild`
+24 error Exit status 1
+25 error Failed at the v8-node@0.0.1 install script.
+25 error This is most likely a problem with the v8-node package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     node-gyp rebuild
+25 error You can get their info via:
+25 error     npm owner ls v8-node
+25 error There is likely additional logging output above.
+26 error System Windows_NT 6.1.7601
+27 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+28 error cwd C:\Users\Sleepyhead\WebstormProjects\v8-node
+29 error node -v v0.10.32
+30 error npm -v 1.4.28
+31 error code ELIFECYCLE
+32 verbose exit [ 1, true ]

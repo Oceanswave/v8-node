@@ -1,0 +1,28 @@
+{
+  "name": "v8-node",
+  "author": "oceanswave",
+  "description": "v8 for node.js",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oceanswave/v8-node"
+  },
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-gyp": "~1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "1.17.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "preinstall": "node buildV8.js",
+    "install": "node-gyp rebuild",
+    "test": "./node_modules/.bin/mocha test/* --reporter spec --colors"
+  },
+  "readmeFilename": "README.md"
+}
